@@ -1,1 +1,0 @@
-﻿package net.peteshand{	import net.peteshand.LoadXML;	import flash.events.EventDispatcher;		public class BaseData extends EventDispatcher	{		public var loadXML:LoadXML;				public function BaseData():void		{			loadXML = new LoadXML();		}	}}
